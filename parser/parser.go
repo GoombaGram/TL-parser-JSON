@@ -96,12 +96,12 @@ func Parse (file *os.File) error {
 	}
 
 	// Create a Schema struct
-	TLstruct := new(jsonStruct.Schema)
-	TLstruct.Constructors = constructors
-	TLstruct.Methods = methods
+	TLStruct := new(jsonStruct.Schema)
+	TLStruct.Constructors = constructors
+	TLStruct.Methods = methods
 
 	// Convert struct to json
-	jsonBytes, err := json.Marshal(TLstruct); if err != nil {return err}
+	jsonBytes, err := json.Marshal(TLStruct); if err != nil {return err}
 
 	// Write json to file
 	_, err = output.Write(jsonBytes); if err != nil {return err}

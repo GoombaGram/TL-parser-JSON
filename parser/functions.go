@@ -28,6 +28,7 @@ import (
 )
 
 // string utils (thanks to https://www.dotnetperls.com/between-before-after-go)
+
 func between(value string, a string, b string) string {
 	// Get substring between two strings.
 	posFirst := strings.Index(value, a)
@@ -66,7 +67,6 @@ func after(value string, a string) string {
 	}
 	return value[adjustedPos:len(value)]
 }
-
 
 
 // parser functions
