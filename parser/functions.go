@@ -3,7 +3,7 @@ package parser
 import (
 	"encoding/binary"
 	"encoding/hex"
-	"github.com/ErikPelli/TL-parser-to-JSON/parser/jsonStruct"
+	"github.com/ErikPelli/TL-parser-JSON/parser/jsonStruct"
 	"strconv"
 	"strings"
 )

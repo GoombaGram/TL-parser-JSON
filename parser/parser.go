@@ -3,13 +3,14 @@ package parser
 import (
 	"bufio"
 	"encoding/json"
-	"github.com/ErikPelli/TL-parser-to-JSON/parser/jsonStruct"
+	"github.com/ErikPelli/TL-parser-JSON/parser/jsonStruct"
 	"os"
 )
 
 func Parse (file *os.File) error {
-	// Remove old schema
+	// Remove old schema or create a new folder if not exists
 	_ = os.Remove("result/schema.json")
+	_ = os.Mkdir("result", os.ModeDir)
 
 	// Create a new output file
 	output, err := os.OpenFile("result/schema.json", os.O_APPEND|os.O_RDWR|os.O_CREATE, 666)

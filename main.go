@@ -3,7 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/ErikPelli/TL-parser-to-JSON/parser"
+	"github.com/ErikPelli/TL-parser-JSON/parser"
 	"os"
 )
 
