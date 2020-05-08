@@ -3,7 +3,7 @@ Golang program that parses Telegram TL schema to JSON.
 
 
 ## Getting started
-1. [Download last release](https://github.com/ErikPelli/TL-parser-to-JSON/releases)
+1. [Download latest release](https://github.com/ErikPelli/TL-parser-to-JSON/releases/latest)
    or get latest commit using `go get github.com/ErikPelli/TL-parser-to-JSON`
 
 2. Download pre-compiled binary or use `go build` on source files folder.
