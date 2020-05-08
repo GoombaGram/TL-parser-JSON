@@ -17,11 +17,11 @@
  * under the License.
  */
 
-package json
+package jsonStruct
 
 type Method struct {
-	Id 			string		`json:"id"`
-	Method		string		`json:"method"`
-	Params 		[]Param		`json:"params"`
-	Type		string		`json:"type"`
+	Id 			string    `json:"id"`
+	Method		string    `json:"method"`
+	Params 		[]*Param  `json:"params"`
+	Type		string    `json:"type"`
 }

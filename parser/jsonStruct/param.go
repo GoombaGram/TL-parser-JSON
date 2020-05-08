@@ -17,7 +17,7 @@
  * under the License.
  */
 
-package json
+package jsonStruct
 
 type Param struct {
 	Name 	string 	`json:"name"`

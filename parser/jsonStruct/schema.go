@@ -18,9 +18,9 @@
  */
 
 // Reconstruction of https://core.telegram.org/schema/json
-package json
+package jsonStruct
 
 type Schema struct {
-	Constructors []Constructor `json:"constructors"`
-	Methods		 []Method 	   `json:"methods"`
+	Constructors []*Constructor `json:"constructors"`
+	Methods		 []*Method   	`json:"methods"`
 }

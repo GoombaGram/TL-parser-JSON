@@ -17,11 +17,11 @@
  * under the License.
  */
 
-package json
+package jsonStruct
 
 type Constructor struct {
-	Id 			string		`json:"id"`
-	Predicate	string		`json:"predicate"`
-	Params 		[]Param		`json:"params"`
-	Type		string		`json:"type"`
+	Id 			string    `json:"id"`
+	Predicate	string    `json:"predicate"`
+	Params 		[]*Param  `json:"params"`
+	Type		string    `json:"type"`
 }
