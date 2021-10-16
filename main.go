@@ -22,7 +22,7 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/ErikPelli/TL-parser-JSON/parser"
+	"github.com/Goombagram/TL-parser-JSON/parser"
 	"os"
 )
 
